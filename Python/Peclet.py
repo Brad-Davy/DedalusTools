@@ -9,7 +9,7 @@ def main():
 
         peclet = Peclet(sys.argv[1])
 
-        time_series = peclet.determine_time_series()[100:]
+        time_series = peclet.determine_time_series()[-50:]
         print('\n The Peclet number of this data set is {peclet_number} with a standard deviation in the data set of {std}.\n'.format(peclet_number = np.average(time_series),std = np.std(time_series)))
 
     else:

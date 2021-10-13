@@ -5,7 +5,8 @@ def InitPrint():
     print('######### DEDALUS HELPER COMMAND LINE TOOLS ##########')
     print('######################################################')
     print('\n')
-    print('     Output:')
+    print('\n')
+    print('Output:')
     print('\n')
 
 def EndPrint():
